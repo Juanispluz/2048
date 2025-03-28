@@ -1,0 +1,15 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    width: max-content;
+}
+
+.tile {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000000;
+}
+
+.hidden {
+    display: none;
+}
